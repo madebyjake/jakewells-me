@@ -19,6 +19,18 @@ pnpm run dev
 
 Open `http://localhost:3000`.
 
+## Testing
+
+```bash
+pnpm run test
+pnpm run test:watch
+pnpm run test:coverage
+```
+
+Vitest covers `src/lib` (content loaders, `cn`, contact helper). CI runs `test:coverage` and writes `coverage/` (gitignored).
+
+Pre-commit runs lint and typecheck only; use `make check` or `pnpm run test` before pushing if you want tests locally without waiting on CI.
+
 ## Content editing
 
 Update content files:
