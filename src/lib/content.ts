@@ -55,6 +55,14 @@ export type SkillsData = z.infer<typeof skillsSchema>;
 export type SkillGroup = SkillsData["groups"][number];
 export type SkillItem = z.infer<typeof skillItemSchema>;
 
+/** Exported for unit tests validating JSON shape rules. */
+export const contentSchemas = {
+  profile: profileSchema,
+  project: projectSchema,
+  experience: experienceSchema,
+  skills: skillsSchema,
+} as const;
+
 const contentRoot = path.join(process.cwd(), "src", "content");
 
 function readJsonDocument<T>(fileName: string, schema: z.ZodSchema<T>): T {
