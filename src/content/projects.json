@@ -1,0 +1,36 @@
+[
+  {
+    "title": "Hybrid-Cloud CaaS Platform",
+    "company": "ESL FACEIT Group",
+    "summary": "Designed and implemented a hybrid-cloud Container-as-a-Service platform on immutable hosts, enabling fully software-defined, rapid deployments.",
+    "order": 1
+  },
+  {
+    "title": "FoxPath DRS",
+    "company": "Novallier Ltd.",
+    "summary": "Built an automation solution that reduced compliance documentation turnaround by up to 1000 percent and seeded a spin-off SaaS effort.",
+    "order": 2
+  },
+  {
+    "title": "Jupiter HCI Platform",
+    "company": "Boss Display Corp.",
+    "summary": "Led a transition to scalable disaggregated HCI with SD-WAN and VDI support to serve multi-location engineering operations.",
+    "order": 3
+  },
+  {
+    "title": "Bluestar",
+    "company": "ESL FACEIT Group",
+    "summary": "Python + Streamlit application that provides read-only Juniper switch visibility—port status, VLAN context, and LLDP neighbors via NETCONF over SSH.",
+    "href": "https://github.com/madebyjake/bluestar",
+    "emphasis": "secondary",
+    "order": 19
+  },
+  {
+    "title": "HashReport",
+    "company": "City of Columbus",
+    "summary": "Command-line tool for generating comprehensive directory hash reports in CSV or JSON, including file metadata and flexible include/exclude filtering for fast, high-volume processing.",
+    "href": "https://github.com/madebyjake/hashreport",
+    "emphasis": "secondary",
+    "order": 20
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "name": "Jake Wells",
+  "profileImage": "/profile-photo.jpeg",
+  "tagline": "Systems administrator and infrastructure engineer.",
+  "intro": "I focus on software-defined infrastructure across hybrid-cloud and cloud-native environments. My work combines containerized platforms, automation, and reliability-focused operations to help teams deliver faster and run more confidently.",
+  "location": "Columbus, Ohio",
+  "links": [
+    {
+      "label": "GitHub",
+      "href": "https://github.com/madebyjake/"
+    },
+    {
+      "label": "LinkedIn",
+      "href": "https://www.linkedin.com/in/wells-jake"
+    }
+  ]
+}

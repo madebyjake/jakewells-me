@@ -1,0 +1,68 @@
+{
+  "groups": [
+    {
+      "title": "Infrastructure Architecture",
+      "items": [
+        { "label": "SDI", "hint": "Software-Defined Infrastructure" },
+        { "label": "HCI", "hint": "Hyperconverged Infrastructure" },
+        { "label": "Virtualization and Compute Platforms" },
+        {
+          "label": "SDN/SDS",
+          "hint": "Software-Defined Networking / Software-Defined Storage"
+        },
+        { "label": "Linux Systems Administration" }
+      ]
+    },
+    {
+      "title": "Cloud-Native Platforms",
+      "items": [
+        { "label": "Containerization" },
+        { "label": "Orchestration" },
+        { "label": "Immutable and Declarative Systems" },
+        { "label": "Platform Standardization" }
+      ]
+    },
+    {
+      "title": "Automation and Delivery",
+      "items": [
+        { "label": "Infrastructure Automation" },
+        {
+          "label": "CI/CD",
+          "hint": "Continuous Integration / Continuous Delivery"
+        },
+        { "label": "Workflow Orchestration" },
+        { "label": "Scripting and Tooling" },
+        { "label": "Repeatable Deployment Pipelines" }
+      ]
+    },
+    {
+      "title": "Cloud and Networking",
+      "items": [
+        { "label": "Hybrid Cloud Architecture" },
+        { "label": "Cloud Service Integration" },
+        {
+          "label": "SD-WAN",
+          "hint": "Software-Defined Wide Area Networking"
+        },
+        {
+          "label": "ZTNA/SASE",
+          "hint": "Zero Trust Network Access / Secure Access Service Edge"
+        },
+        { "label": "Overlay Networking and Secure Remote Access" }
+      ]
+    },
+    {
+      "title": "Operations and Reliability",
+      "items": [
+        { "label": "Incident Response" },
+        { "label": "Change Management" },
+        { "label": "Monitoring and Observability" },
+        {
+          "label": "BCDR",
+          "hint": "Backup, Recovery, and Data Resilience"
+        },
+        { "label": "Technical Documentation" }
+      ]
+    }
+  ]
+}

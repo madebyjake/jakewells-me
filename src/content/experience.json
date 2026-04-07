@@ -1,0 +1,44 @@
+[
+  {
+    "company": "ESL FACEIT Group",
+    "role": "Event IT Technical Specialist",
+    "period": "June 2025 - Present",
+    "summary": "Support event IT operations, venue systems readiness, and on-site technical troubleshooting for live esports productions across broadcast, stage, and network environments.",
+    "order": 1
+  },
+  {
+    "company": "City of Columbus - Department of Technology",
+    "role": "System Administrator",
+    "period": "June 2023 - June 2025",
+    "summary": "Configure and manage Tier 3 datacenter software and hardware resources, administer VMware Cloud Foundation and RHEL fleets, and develop automation and documentation for production operations.",
+    "order": 2
+  },
+  {
+    "company": "Novallier Ltd.",
+    "role": "Technical Lead, Founding Member",
+    "period": "January 2020 - Present",
+    "summary": "Lead technical architecture and system design across development and production environments, enforce standards and processes, and coordinate cross-functional delivery with clients and stakeholders.",
+    "order": 3
+  },
+  {
+    "company": "Boss Display Corp.",
+    "role": "Technical Operations Lead",
+    "period": "November 2022 - April 2023",
+    "summary": "Manage software and hardware lifecycle, monitor uptime and support operations, and implement security, backup, and disaster recovery practices while planning scalable infrastructure upgrades.",
+    "order": 4
+  },
+  {
+    "company": "Central Tech, UberData Networks",
+    "role": "System Administrator, NetOps Specialist",
+    "period": "January 2021 - January 2022",
+    "summary": "Install, configure, and maintain client systems; implement network security controls; handle patching, backups, and recovery planning; and support subcontracted NetOps delivery for UberData Networks.",
+    "order": 5
+  },
+  {
+    "company": "3C Technology Solutions",
+    "role": "Web Administrator",
+    "period": "June 2017 - December 2019",
+    "summary": "Develop and maintain web applications, administer web servers and databases, optimize performance, and strengthen security and recovery practices for production web systems.",
+    "order": 6
+  }
+]
