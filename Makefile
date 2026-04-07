@@ -1,6 +1,6 @@
 SHELL := /bin/bash
 
-.PHONY: install dev lint typecheck build check commit release release-dry export clean
+.PHONY: install dev lint typecheck test test-coverage build check commit release release-dry export clean
 
 install:
 	pnpm install
@@ -14,11 +14,17 @@ lint:
 typecheck:
 	pnpm run typecheck
 
+test:
+	pnpm run test
+
+test-coverage:
+	pnpm run test:coverage
+
 build:
 	pnpm run build
 
 check:
-	pnpm run lint && pnpm run typecheck
+	pnpm run lint && pnpm run typecheck && pnpm run test
 
 commit:
 	pnpm run commit
