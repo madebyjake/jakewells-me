@@ -92,19 +92,19 @@
   body {
     @apply bg-background text-foreground font-mono;
     background-image:
-      radial-gradient(circle at 18% -12%, --alpha(var(--color-emerald-500) / 12%), transparent 42%),
-      radial-gradient(circle at 82% 118%, --alpha(var(--color-emerald-400) / 8%), transparent 36%),
+      radial-gradient(circle at 18% -12%, --alpha(var(--color-emerald-500) / 8%), transparent 42%),
+      radial-gradient(circle at 82% 118%, --alpha(var(--color-emerald-400) / 5%), transparent 36%),
       repeating-linear-gradient(
         to right,
-        --alpha(var(--color-zinc-300) / 3.5%) 0px,
-        --alpha(var(--color-zinc-300) / 3.5%) 1px,
+        --alpha(var(--color-zinc-300) / 1.8%) 0px,
+        --alpha(var(--color-zinc-300) / 1.8%) 1px,
         transparent 1px,
         transparent 28px
       ),
       repeating-linear-gradient(
         to bottom,
-        --alpha(var(--color-zinc-300) / 3.2%) 0px,
-        --alpha(var(--color-zinc-300) / 3.2%) 1px,
+        --alpha(var(--color-zinc-300) / 1.6%) 0px,
+        --alpha(var(--color-zinc-300) / 1.6%) 1px,
         transparent 1px,
         transparent 28px
       ),
@@ -134,7 +134,7 @@
   }
 
   .glass-panel {
-    background-color: --alpha(var(--color-zinc-900) / 62%);
+    background-color: --alpha(var(--color-zinc-900) / 74%);
     backdrop-filter: blur(8px) saturate(120%);
     box-shadow:
       inset 0 1px 0 --alpha(var(--color-zinc-100) / 7%),
@@ -150,7 +150,7 @@
     position: absolute;
     inset: 0;
     pointer-events: none;
-    opacity: 0.055;
+    opacity: 0.03;
     background-image: radial-gradient(circle at 1px 1px, var(--color-zinc-200) 1px, transparent 0);
     background-size: 3px 3px;
     mix-blend-mode: soft-light;
@@ -168,7 +168,7 @@
     top: 0.55rem;
     font-size: 0.65rem;
     letter-spacing: 0.1em;
-    color: --alpha(var(--color-zinc-300) / 22%);
+    color: --alpha(var(--color-zinc-300) / 14%);
     pointer-events: none;
   }
 

@@ -37,7 +37,7 @@ export function ProjectsSection({ projects }: ProjectsSectionProps) {
         {primaryProjects.map((project) => (
           <Card
             key={project.title}
-            className="terminal-pattern glass-panel noise-overlay border-border/80 bg-zinc-900/40 transition-colors hover:bg-zinc-900/55"
+            className="terminal-pattern glass-panel noise-overlay border-border/80 bg-zinc-900/60 transition-colors hover:bg-zinc-900/72"
           >
             <CardHeader className="space-y-2 pb-3">
               <CardTitle className="text-base leading-6">
